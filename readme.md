@@ -10,7 +10,7 @@ Si quieres puedes intentarlo y crear tu mismo la plantilla, sigue estos pasos:
 1. ```mkdir project-name && cd project-name```
 1. ```npm init -y```
 1. ```code .```
-1. en vscode editar dist/index.html
+1. En vscode editar dist/index.html
       ```
       <!DOCTYPE html>
       <html lang="es">
@@ -25,10 +25,10 @@ Si quieres puedes intentarlo y crear tu mismo la plantilla, sigue estos pasos:
       </body>
       </html>
       ```
-1. en vscode editar src/index.js
+1. En vscode editar src/index.js
       ```document.getElementsByTagName('body')[0].innerHTML = "HOLA";```
-1. instalar el plugin de vscode https://marketplace.visualstudio.com/items?itemName=jeremyrajan.webpack
-1. en vscode CTRL+SHIFT+P -> ```Webpack Create```
+1. Instalar el plugin de vscode https://marketplace.visualstudio.com/items?itemName=jeremyrajan.webpack
+1. En vscode CTRL+SHIFT+P -> ```Webpack Create```
 1. ```npm install --save-dev webpack webpack-cli webpack-dev-server```
 1. Agregar estos scripts al package.json
       ```
@@ -36,7 +36,7 @@ Si quieres puedes intentarlo y crear tu mismo la plantilla, sigue estos pasos:
       "watch": "webpack --watch",
       "serve": "webpack-dev-server --open && npm run watch"
       ```
-1. en vscode editar  .gitignore
+1. En vscode editar  .gitignore
       ```
       node_modules  
       ```

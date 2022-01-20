@@ -3,7 +3,7 @@
 Este repositorio contiene una plantilla básica de un proyecto para vscode con webpack y babel
 
 Para usarlo solo descarga este repocitorio con
-```git clone https://github.com/programagol/boilerplate.git```
+```git clone https://github.com/programagol/boilerplate-webpack-basic.git```
 
  Luego ejecuta dentro de la carpeta ```npm i``` (esto cargara los modulos), luego inicia vscode dentro de la carpeta con ```code .```, finalmente compila el proyecto con ```npm run build``` e inicia el servidor local con ```npm run serve```
 

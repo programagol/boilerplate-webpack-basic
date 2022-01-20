@@ -1,15 +1,11 @@
-## BOILERPLATE BASIC WEBPACK BABEL FOR VSCODE
 
-Este repositorio contiene una plantilla básica de un proyecto para vscode con webpack y babel
+Este repositorio contiene una plantilla básica de un proyecto para vscode con webpack.
 
-Para usarlo solo descarga este repocitorio con
-```git clone https://github.com/programagol/boilerplate-webpack-basic.git```
-
- Luego ejecuta dentro de la carpeta ```npm i``` (esto cargara los modulos), luego inicia vscode dentro de la carpeta con ```code .```, finalmente compila el proyecto con ```npm run build``` e inicia el servidor local con ```npm run serve```
+Para instalarlo puedes descarga este repositorio con ```git clone https://github.com/programagol/boilerplate-webpack-basic.git```, luego renombra la carpeta ```boilerplate-webpack-basic``` usando ahora el nombre de tu proyecto, y también modifica el nombre del proyecto en package.json en el parámetro "name". Luego ejecuta dentro de la carpeta ```npm i``` (esto cargara los módulos), despues inicia vscode dentro de la carpeta con ```code .```, finalmente compila el proyecto con ```npm run build``` e inicia el servidor local con ```npm run serve```.
 
 
-## CREACION DE PLANTILLA PASO A PASO
-Si quieres crear tu mismo la plantilla, sigue estos pasos:
+## CREACIÓN DE PLANTILLA PASO A PASO
+Si quieres puedes intentarlo y crear tu mismo la plantilla, sigue estos pasos:
 1. Abrir un terminal de windows ```cmd```
 1. ```mkdir project-name && cd project-name```
 1. ```npm init -y```

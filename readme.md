@@ -36,9 +36,9 @@ Si quieres crear tu mismo la plantilla, sigue estos pasos:
 1. ```npm install --save-dev webpack webpack-cli webpack-dev-server```
 1. Agregar estos scripts al package.json
       ```
-            "build": "webpack",
-            "watch": "webpack --watch",
-            "serve": "webpack-dev-server --open && npm run watch"
+      "build": "webpack",
+      "watch": "webpack --watch",
+      "serve": "webpack-dev-server --open && npm run watch"
       ```
 1. en vscode editar  .gitignore
       ```

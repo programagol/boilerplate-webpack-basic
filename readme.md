@@ -1,7 +1,7 @@
 
 Este repositorio contiene una plantilla básica de webpack para vscode.
 
-Para instalar la plantilla descarga el repositorio con ```git clone https://github.com/programagol/boilerplate-webpack-basic.git```, luego renombra la carpeta ```boilerplate-webpack-basic``` usando ahora el nombre de tu proyecto y también modifica el nombre del proyecto en package.json en el parámetro "name". Luego ubícate a la carpeta y ejecuta ```npm i``` ,esto cargara los módulos, después inicia vscode dentro de la carpeta con ```code .```, finalmente compila el proyecto con ```npm run build``` e inicia el servidor local con ```npm run serve```.
+Para instalar la plantilla descarga el repositorio con ```git clone https://github.com/programagol/boilerplate-webpack-basic.git```, luego renombra la carpeta ```boilerplate-webpack-basic``` usando ahora el nombre de tu proyecto y también modifica el nombre del proyecto en package.json en el parámetro "name". Luego ubícate a la carpeta y ejecuta ```npm i``` ,esto cargara los módulos, después inicia vscode con ```code .```, finalmente compila el proyecto con ```npm run build``` e inicia el servidor local con ```npm run serve```.
 
 
 ## CREACIÓN DE PLANTILLA PASO A PASO
